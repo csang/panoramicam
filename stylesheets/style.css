@@ -1,0 +1,259 @@
+/* CSS Document */
+#wrapper{
+	margin: 0px auto;
+	width: 100%;
+	background-color: #000;
+}
+
+#welcome, #info{
+	margin: -15px auto;
+	background-image: url(../images/assets/bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#info{
+	margin: 0;
+	padding: 10px;
+}
+
+#wheels-debug-area{
+	display: none;
+}
+
+#logo{
+	width: 363px;
+	margin: 5px;
+}
+
+body{
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 13px;
+	margin: 0;
+	background-color: #000;
+}
+
+header{
+	background-color: #000;
+	width: 100%;
+	height: 50px;
+	padding: 5px;
+	border-bottom: solid 3px #ffc800;
+	margin: 0;
+}
+
+footer{
+	background-color: #000;
+	width: 100%;
+	height: 50px;
+	padding: 25px 0 110px;;
+	border-top: solid 3px #ffc800;
+	margin: 0;
+	color: #ffc800;
+	text-align: center;
+}
+
+/*  --------------------- Welcome page ---------------------  */
+
+.login{
+	color: #ffc800;
+	position:absolute;
+	top: 0;
+	right: 0;
+	width: 460px;
+}
+
+.register{
+	color: #ffc800;
+	padding: 20px 30px;
+	margin: 15px 0;
+}
+
+.error, .valid{
+	display: none;
+	padding: 0 0 10px;
+	margin-top: -10px;
+}
+
+.error{
+	color: #ff0000;
+}
+
+.valid{
+	color: #00ff00;
+}
+
+.url_id{
+	margin-top: -30px;
+}
+
+.loginEmail{
+	margin-right: 10px;
+}
+
+.loginFieldset{
+	border: #000;
+	margin-top: 15px;
+}
+
+.registerFieldset, .registerFieldset fieldset, .info-form fieldset{
+	border: solid 3px #ffc800;
+	margin-top: 15px;
+}
+
+.registerFieldset, .info-form{
+	background-color: rgba(0,0,0,.8);
+}
+
+.registerFieldset div{
+	text-align: right;
+}
+
+.errors{
+	color: #ff0000;
+}
+
+form{
+	width: 320px;
+}
+
+form div{
+	margin: 0;
+}
+
+form fieldset{
+	margin: 5px 0;
+}
+
+label{
+	width: 150px;
+	text-align: right;
+}
+
+input[type=submit]{
+	float: right;
+}
+
+form fieldset legend{
+	color: #ffc800;
+	font-weight: bold;	
+}
+
+/*  --------------------- Home page ---------------------  */
+
+.welcome-message{
+	position: absolute;
+	padding: 0;
+	right: 225px;
+	width: 150px;
+}
+
+.logout-profile, .logout-info{
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	padding: 10px;
+	background-color: rgba(0,0,0,0);
+}
+
+.logout-profile a, .logout-info a{
+	color: #ffc800;
+	padding: 0 15px;
+	margin-left: 25px;
+	font-size: 14px;
+	text-decoration: none;
+	border-bottom: solid 3px #ffc800;
+}
+
+.logout-profile a:hover, .logout-info a:hover{
+	color: #ffffff;
+	border-bottom: solid 3px #ffffff;
+}
+
+.image{
+	width: 100%;
+	overflow: hidden;
+	border-top: 3px solid #ffc800;
+	background-color: #000;
+	margin-top: 0;
+}
+
+.image-info{
+	padding: 1px 10px 10px;
+	color: #ffc800;
+	background-color: #000;
+}
+
+.image-info a{
+	color: #ffc800;
+}
+
+.image-info a:hover{
+	color: #fff;
+}
+
+h2, p{
+	color: #ffc800;
+	margin: 0;
+	padding: 10px;
+	text-align: center;
+}
+
+img{
+	width: 100%;
+	margin-top: -10px;
+}
+
+/*  --------------------- Profile ---------------------  */
+
+.upload-form{
+	color: #ffc800;
+	padding: 20px;
+	margin: 0;
+}
+
+.upload-form fieldset{
+	border: solid 3px #ffc800;
+}
+
+.submit-delete{
+	padding-bottom: 20px;
+}
+
+.delete-form{
+	width: 98%;
+}
+
+.delete-user-form{
+	width: 80px;
+	margin-left: 50%;
+}
+
+/*  --------------------- Info ---------------------  */
+
+#update-form{
+	border-top: solid 3px #ffc800;
+}
+
+.info-form{
+	color: #ffc800;
+	text-align: right;
+}
+
+.success{
+	color: #00ff00;
+}
+
+.user{
+	background-color: rgba(0,0,0,.8);
+	width: 300px;
+	margin: 10px 30px;
+}
+
+.info-form{
+	margin-left: 30px;
+}
+
+textarea{
+	resize: none;
+}
